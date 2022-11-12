@@ -1,4 +1,4 @@
-# bhacks-mapapp
+# bhacks-LightTheWay
 
 App name : Light the way
 
