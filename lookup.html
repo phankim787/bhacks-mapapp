@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Light The Way </title>
+    </head>
+        <h1>Campus Lookup</h1>
+<select onchange="location = this.value;">
+    <option value="bu.html">Boston University</option>
+    <option value="harvard.html">Harvard University</option>
+    <option value="ne.html">Northeastern University</option>
+    <option value="umass.html">University of Massachusetts</option>
+    <option value="bc.html">Boston College</option>
+    <option value="tufts.html">Tufts University</option>
+    <option value="mit.html">MIT</option>
+    <option value="berklee.html">Berklee College of Music</option>
+    <option value="wells.html">Wellesley College</option>
+
+       </select>
+
+    <script>
+        document.getElementById("campuslookup").onchange = function() {
+            if (this.selectedIndex!==0) {
+            rel = this.value;
+            }        
+        };
+    </script>
+
+</html>

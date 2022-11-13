@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../coding woohoo"
+		},
+		{
+			"name": "bhacks-mapapp-1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bhacks-mapapp-1"
+	}
+}
